@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import { Header, Hero } from '@/components';
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
         <section id="about" className="py-12 md:py-24 lg:py-32">
           <Hero />
         </section>
-        <section id="projects" className="py-12 md:py-24 lg:py-32">
+        {/* <section id="projects" className="py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Projects</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -103,8 +103,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
-        <section className="py-12 md:py-24 lg:py-32">
+        </section> */}
+        {/* <section className="py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Tech Stack</h2>
             <div className="grid gap-6 md:grid-cols-2">
@@ -117,32 +117,10 @@ export default function Home() {
                 <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">MongoDB</span>
               </div>
               </div>
-              <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-6" data-v0-t="card">
-                <h3 className="text-lg font-semibold mb-4">DevOps</h3>
-                <div className="flex flex-wrap gap-2">
-                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">Docker</span>
-                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">AWS</span>
-                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">CI/CD</span>
-                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">Git</span>
-                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">Linux</span>
-                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">Nginx</span>
-                </div>
-              </div>
-              <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-6" data-v0-t="card">
-                <h3 className="text-lg font-semibold mb-4">Tools</h3>
-                <div className="flex flex-wrap gap-2">
-                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">VS Code</span>
-                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">Postman</span>
-                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">Figma</span>
-                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">Jest</span>
-                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">GitHub</span>
-                  <span className="inline-flex items-center rounded-md bg-primary/10 px-2 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">Vercel</span>
-                </div>
-              </div>
             </div>
           </div>
-        </section>
-        <section id="contact" className="py-12 md:py-24 lg:py-32">
+        </section> */}
+        {/* <section id="contact" className="py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="mx-auto max-w-2xl">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Get in Touch</h2>
@@ -165,15 +143,15 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
       <footer className="border-t">
         <div className="container flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6">
-          <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 John.dev. All rights reserved.</p>
-          <nav className="sm:ml-auto flex gap-4 sm:gap-6">
+          <p className="text-xs text-gray-500 dark:text-gray-400">© ${(new Date()).getFullYear()} Manuel Reyes. All rights reserved.</p>
+          {/* <nav className="sm:ml-auto flex gap-4 sm:gap-6">
             <a href="#" className="text-xs hover:underline underline-offset-4">Terms of Service</a>
             <a href="#" className="text-xs hover:underline underline-offset-4">Privacy</a>
-          </nav>
+          </nav> */}
         </div>
       </footer>
     </div>

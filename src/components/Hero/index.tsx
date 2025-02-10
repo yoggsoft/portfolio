@@ -1,5 +1,26 @@
 import Image from 'next/image';
 import { Icon } from '@/components/Icons';
+import { IconNameType } from '@/components/Icons/IconIndex';
+
+export type ItemType = {
+  title: item,
+  url: string,
+  icon: IconNameType
+};
+
+export type item =
+  'facebook' |
+  'instagram' |
+  'youtube' |
+  'tiktok' |
+  'amazon' |
+  'apple' |
+  'applemusic' |
+  'deezer' |
+  'spotify' |
+  'soundcloud' |
+  'ytmusic';
+
 
 export default function Hero () {
   return (

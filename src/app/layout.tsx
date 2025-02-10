@@ -14,7 +14,24 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Manuel Reyes - Portfolio',
-  description: 'Software Engineer located in Brussels',
+  description: 'Software Engineer located in Brussels.',
+  openGraph: {
+    siteName: 'Manuel Reyes',
+    title: 'Manuel Reyes',
+    url: 'http://www.manuelreyes.dev',
+    type: 'website',
+    description: 'Software Engineer located in Brussels.',
+    locale: 'en_US',
+    images: '/img/opengraph-image.jpg'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@yoggsoft',
+    title: 'Manuel Reyes - Software Engineer located in Brussels',
+    description: 'Software Engineer located in Brussels.',
+    creator: '@yoggsoft',
+    images: '/img/opengraph-image.jpg'
+  }
 };
 
 export default function RootLayout({
@@ -25,8 +42,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-background font-sans antialiased`}
+      > 
         {children}
       </body>
     </html>

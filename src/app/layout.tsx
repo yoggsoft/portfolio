@@ -15,6 +15,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Manuel Reyes - Portfolio',
   description: 'Full Stack Developer dedicated to crafting unique user experiences from initial wireframes to final products that make a global impact.',
+  creator: 'Manuel Reyes',
+  keywords: ['manuel reyes', 'developer', 'software', 'engineer', 'venezuelan', 'frontend', 'reactjs'],
   openGraph: {
     siteName: 'Manuel Reyes',
     title: 'Manuel Reyes',

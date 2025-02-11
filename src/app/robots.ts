@@ -9,6 +9,6 @@ export default function robots (): MetadataRoute.Robots {
         disallow: ['/css', 'privacy']
       }
     ],
-    sitemap: '/sitemap.xml'
+    sitemap: 'https://manuelreyes.dev/sitemap.xml'
   }
 }

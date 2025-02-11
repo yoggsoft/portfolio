@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: 'website',
     description: 'Software Engineer located in Brussels.',
     locale: 'en_US',
-    images: '/img/opengraph-image.jpg'
+    images: 'http://www.manuelreyes.dev/img/opengraph-image.jpg'
   },
   twitter: {
     card: 'summary_large_image',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: 'Manuel Reyes - Software Engineer located in Brussels',
     description: 'Software Engineer located in Brussels.',
     creator: '@yoggsoft',
-    images: '/img/opengraph-image.jpg'
+    images: 'http://www.manuelreyes.dev/img/opengraph-image.jpg'
   }
 };
 
@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-background font-sans antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} h-screen bg-background font-sans antialiased `}
       > 
         {children}
       </body>

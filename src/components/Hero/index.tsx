@@ -50,35 +50,35 @@ export default function Hero () {
             <div className="flex justify-center">
               <a
                 className="p-2"
-                href="https://linkedin.com/in/querales" target="_blank">
-                <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-background hover:bg-accent hover:opacity-75 hover:text-accent-foreground h-10 w-10">
-                  <Icon name='linkedin' />
-                  <span className="sr-only">LinkedIn</span>
-                </button>
+                href="https://linkedin.com/in/querales" target="_blank"
+                aria-label='linkedin'
+              >
+                <span className="sr-only">LinkedIn</span>
+                <Icon name='linkedin' />
               </a>
               <a
                 className="p-2"
-                href="https://github.com/yoggsoft" target="_blank">
-                <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bord bg-background hover:bg-accent hover:opacity-75 hover:text-accent-foreground h-10 w-10">
-                  <Icon name='github' />
-                  <span className="sr-only">GitHub</span>
-                </button>
+                href="https://github.com/yoggsoft" target="_blank"
+                aria-label='github'
+              >
+                <span className="sr-only">GitHub</span>
+                <Icon name='github' />
               </a>
               <a
                 className="p-2"
-                href="https://www.instagram.com/koopaquerales" target="_blank">
-                <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-background hover:bg-accent hover:opacity-75 hover:text-accent-foreground h-10 w-10">
-                  <Icon name='instagram' />
-                  <span className="sr-only">Instagram</span>
-                </button>
+                href="https://www.instagram.com/koopaquerales" target="_blank"
+                aria-label='instagram'
+              >
+                <span className="sr-only">Instagram</span>
+                <Icon name='instagram' />
               </a>
               <a
                 className="p-2"
-                href="https://facebook.com/queralito" target="_blank">
-                <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-background hover:bg-accent hover:opacity-75 hover:text-accent-foreground h-10 w-10">
-                  <Icon name='facebook' />
-                  <span className="sr-only">Facebook</span>
-                </button>
+                href="https://facebook.com/queralito" target="_blank"
+                aria-label='facebook'
+              >
+                <span className="sr-only">Facebook</span>
+                <Icon name='facebook' />
               </a>
             </div>
           </div>

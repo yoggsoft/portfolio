@@ -6,7 +6,7 @@ export default function robots (): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/css', 'privacy']
+        disallow: ['/css']
       }
     ],
     sitemap: 'https://manuelreyes.dev/sitemap.xml'
